@@ -1,0 +1,28 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+div {
+  min-height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  font-size: 60px;
+  color: rgb(0, 0, 0);
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana,        sans-serif;
+}
+
+.banner {
+  background: url(images/earth.avif);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-attachment: fixed;
+}
+
+.header {
+  background: linear-gradient(to top, rgba(217, 4, 41, 0.7) 0%, rgba(43, 45, 66, 0.0) 100%), url(images/somewhere_in_america.jpg)bottom/cover no-repeat fixed;
+}
